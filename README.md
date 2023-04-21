@@ -1,17 +1,21 @@
-# tsc-files
+# tsc-stage-files
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/gustavopch/tsc-files/Release?style=flat-square)
 
 A tiny tool to run `tsc` on specific files without ignoring `tsconfig.json`.
+Forked from [tsc-files](https://github.com/gustavopch/tsc-files) but support for pnpm.
 
 ## Installation
 
 ```sh
-npm i -D tsc-files
+npm i -D tsc-stage-files
 ```
 
 ```sh
-yarn add -D tsc-files
+yarn add -D tsc-stage-files
+```
+
+```sh
+pnpm i -D tsc-stage-files
 ```
 
 ## Why
@@ -29,7 +33,7 @@ With lint-staged:
 ```json
 {
   "lint-staged": {
-    "**/*.ts": "tsc-files --noEmit"
+    "**/*.ts": "tsc-stage-files --noEmit"
   }
 }
 ```
