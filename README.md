@@ -2,6 +2,7 @@
 
 
 A tiny tool to run `tsc` on specific files without ignoring `tsconfig.json`.
+
 Forked from [tsc-files](https://github.com/gustavopch/tsc-files) but support for pnpm.
 
 ## Installation
