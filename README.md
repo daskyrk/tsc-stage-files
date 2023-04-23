@@ -34,7 +34,7 @@ With lint-staged:
 ```json
 {
   "lint-staged": {
-    "**/*.ts": "tsc-stage-files --noEmit"
+    "**/*.ts": "tsc-stage-files src/external.d.ts --noEmit" // include your external d.ts files as your wish
   }
 }
 ```
